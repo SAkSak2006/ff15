@@ -32,7 +32,6 @@ def show_main_menu():
         sys.exit()
 
     Button(main_menu, text="Начать игру", command=start_game).pack(pady=5)
-    Button(main_menu, text="Настройки", command=open_settings).pack(pady=5)
     Button(main_menu, text="Выход", command=exit_game).pack(pady=5)
 
     main_menu.mainloop()
